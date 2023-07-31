@@ -1,2 +1,2 @@
 # omicsai
-genomics ai for document classification
+Protein/Enzyme classification 
