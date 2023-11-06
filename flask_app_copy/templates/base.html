@@ -1,0 +1,21 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genomic Data Processing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header style="background-color: #333333; color: #ADFF2F;"> <!-- Dark grey background, bright lemon green font color -->
+        Genomic Data Processing
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer style="color: grey;">
+        &copy; CapeBio SA AI Genome Diagnostics. All Rights Reserved.
+    </footer>
+</body>
+</html>

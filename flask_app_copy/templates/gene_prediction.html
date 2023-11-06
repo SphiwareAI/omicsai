@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Gene Prediction</h2>
+
+{% if feedback %}
+    <p>{{ feedback }}</p>
+{% endif %}
+
+{% if protein_file %}
+    <p><a href="{{ url_for('output_files', subdir='output_prodigal', filename=protein_file) }}" download>Download Predicted Proteins</a></p>
+{% else %}
+<form action="{{ url_for('gene_prediction') }}" method="post" enctype="multipart/form-data">
+    <label for="file">Upload .fa file for gene prediction:</label>
+    <input type="file" name="file" required>
+    <br><br>
+    <input type="submit" value="Predict Genes">
+</form>
+{% endif %}
+
+<div style="display: flex; justify-content: space-between;">
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</div>
+
+{% endblock %}

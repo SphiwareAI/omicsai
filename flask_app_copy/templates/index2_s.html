@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 18 14:10:01 2023
+
+@author: mphomokoatle
+"""
+
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primary enzyme class prediction</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+
+
+<body>
+
+
+ <div class="content-table">
+ 
+ <h1>Prediction results!</h1>
+
+   {{ prediction_text }}
+
+
+       
+       
+      <h2>See the table below for the interpretation of the prediction</h2>  
+
+ <table class="content-table">
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Primary enzyme</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td> Oxidoreductase</td>
+            
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Transferases</td>
+            
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Hydrolases</td>
+            
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Lyases</td>
+              
+               </tr>
+               <tr>
+                 <td>5</td>
+                 <td>Isomerase</td>
+                 
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Ligases</td>
+                    
+                     </tr>
+                     <tr>
+                       <td>7</td>
+                       <td>translocase</td>
+                       
+                        </tr>
+                        <tr>
+                          <td>0</td>
+                          <td>Non enzyme</td>
+           
+          </tr>
+        </tbody>
+      </table>
+     
+       </div>
+       
+       
+       
+</body>
+</html>

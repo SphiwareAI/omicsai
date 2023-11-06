@@ -1,0 +1,349 @@
+Wed Aug 30 23:04:29 2023
+ velvetg outputs/output_velvet -cov_cutoff 5
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Wed Aug 30 23:09:12 2023
+ velvetg outputs/output_velvet -cov_cutoff 5
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 00:10:51 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 00:10:51 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2918 nodes and n50 of 94, max 890, total 270418, using 0/20000 reads
+Thu Aug 31 02:51:58 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 02:51:58 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2922 nodes and n50 of 94, max 890, total 270564, using 0/20000 reads
+Thu Aug 31 02:52:32 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 02:52:32 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2919 nodes and n50 of 94, max 890, total 270524, using 0/20000 reads
+Thu Aug 31 02:56:40 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 02:56:41 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2917 nodes and n50 of 94, max 890, total 270267, using 0/20000 reads
+Thu Aug 31 03:33:14 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 03:33:14 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2914 nodes and n50 of 94, max 890, total 270277, using 0/20000 reads
+Thu Aug 31 04:51:32 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 04:51:32 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2921 nodes and n50 of 94, max 830, total 270480, using 0/20000 reads
+Thu Aug 31 05:12:32 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 05:12:32 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2913 nodes and n50 of 94, max 830, total 270157, using 0/20000 reads
+Thu Aug 31 05:47:20 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 05:47:20 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2923 nodes and n50 of 94, max 890, total 270577, using 0/20000 reads
+Thu Aug 31 05:48:07 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 05:48:08 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2917 nodes and n50 of 94, max 890, total 270249, using 0/20000 reads
+Thu Aug 31 05:52:37 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 05:52:37 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2912 nodes and n50 of 94, max 890, total 269983, using 0/20000 reads
+Thu Aug 31 06:20:43 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 06:20:44 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2918 nodes and n50 of 94, max 830, total 270274, using 0/20000 reads
+Thu Aug 31 10:28:27 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 10:28:27 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2918 nodes and n50 of 94, max 890, total 270309, using 0/20000 reads
+Thu Aug 31 14:17:40 2023
+ velveth outputs/output_velvet 31 -shortPaired -separate -fastq uploads/thousand_1.fastq.gz uploads/thousand_2.fastq.gz
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Thu Aug 31 14:17:40 2023
+ velvetg outputs/output_velvet
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Final graph has 2909 nodes and n50 of 94, max 830, total 269839, using 0/20000 reads

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Genomic Assembly</h2>
+
+{% if feedback %}
+    <p>{{ feedback }}</p>
+{% endif %}
+
+{% if contigs %}
+    <!-- Display links for downloading contigs.fa and stats.txt -->
+    <!-- Link to download contigs.fa -->
+    <p><a href="{{ url_for('output_files', subdir='output_velvet', filename=contigs) }}" download>Download Contigs</a></p>
+{% endif %}
+<!-- Link to download stats.txt -->
+{% if stats %}
+    <p><a href="{{ url_for('output_files', subdir='output_velvet', filename=stats) }}" download>Download Stats</a></p>
+{% endif %}
+
+{% if not contigs and not stats %}
+<form action="{{ url_for('genome_assembly') }}" method="post" enctype="multipart/form-data">
+    <p>Please upload both files for paired-end reads:</p>
+    <label for="file1">Upload File 1 (Required):</label>
+    <input type="file" name="file1" required>
+    <br>
+    <label for="file2">Upload File 2 (Required):</label>
+    <input type="file" name="file2" required>
+    <br>
+    <input type="submit" value="Assemble Genome">
+</form>
+{% endif %}
+
+<a href="{{ url_for('index') }}">Back to Home</a>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Check Quality of File</h2>
+    <p>Welcome to the quality check page. Here, you can upload your FASTQ or gzipped FASTQ files to analyze their quality.</p>
+
+    <form action="{{ url_for('check_quality') }}" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a FASTQ file:</label>
+        <input type="file" id="file" name="file" accept=".fastq,.fastq.gz"><br><br>
+        <input type="submit" value="Upload and Analyze">
+    </form>
+
+    <br>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="flash">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% if html_report %}
+        <h3>Analysis Results</h3>
+        <!-- Link to view the HTML quality report -->
+        <p><a href="{{ url_for('output_files', subdir='output_fastqc', filename=html_report) }}" target="_blank">View HTML Quality Report</a></p>
+    {% endif %}
+    {% if zip_report %}
+        <!-- Link to download the .zip report -->
+        <p><a href="{{ url_for('output_files', subdir='output_fastqc', filename=zip_report) }}" download>Download Quality Report ZIP</a></p>
+    {% endif %}
+    
+    <a href="{{ url_for('index') }}">Back to Home</a>
+{% endblock %}
+

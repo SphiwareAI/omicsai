@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaperone.ai - Genomic Sequencing and Prediction</title>
+    <link rel="stylesheet" href="your-styles.css">
+    <style>
+        /* Reset default margin and padding */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-color: #007bff;
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Features section styles */
+        .features {
+            background-color: #fff;
+            padding: 40px 0;
+        }
+
+        .features h2 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .features li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Form and result display styles */
+        main {
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        input[type=file] {
+            width: 300px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 150px;
+            padding: 12px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        input[type=submit]:hover {
+            background-color: #0056b3;
+        }
+
+        .query-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .query-input {
+            width: 100%;
+            max-width: 800px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            font-size: 14px;
+        }
+
+        .predict-button {
+            width: 150px;
+            padding: 12px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .predict-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Result display styles */
+        .prediction-result {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Chaperone.ai Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('check_quality') }}">Check Quality of File</a></li>
+                <li><a href="{{ url_for('genome_assembly') }}">Genomic Assembly</a></li>
+                <li><a href="{{ url_for('gene_prediction') }}">Gene Prediction</a></li>
+                <li><a href="{{ url_for('ml_preprocessing') }}">Machine Learning Preprocessing</a></li>
+                <li><a href="{{ url_for('ml_classification') }}">Machine Learning Classification</a></li>
+            </ul>
+        </nav>
+    </header>
+   <!-- ... (previous HTML code) ... -->
+
+<main>
+    <section class="hero">
+        <h1>Your Big Genomics Data Analysis Platform</h1>
+        <p>An AI-driven computational genomics platform that empowers researchers and scientists to accelerate genomics research, streamline data analysis, and make breakthrough discoveries. Explore our advanced features and enhance your genomic analysis today.</p>
+    </section>
+    <section class="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>High-Quality File Checking</li>
+            <li>Advanced Genomic Assembly</li>
+            <li>Precision Gene Prediction</li>
+            <li>Streamlined ML Preprocessing</li>
+            <li>Accurate ML Classification</li>
+        </ul>
+    </section>
+
+    
+
+        <!-- Result display section -->
+        <div class="prediction-result">
+            {{ prediction_text }}
+        </div>
+    </div>
+</main>
+
+<!-- ... (remaining HTML code) ... -->
+
+    <footer>
+        <p>&copy; {{ current_year }} Chaperone.ai. All rights reserved.</p>
+    </footer>
+</body>
+</html>
