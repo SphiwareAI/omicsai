@@ -1,0 +1,29 @@
+<!-- ml_processing.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>ML Processing</h2>
+
+  <form method="post" action="{{ url_for('ml_preprocessing') }}" enctype="multipart/form-data" class="upload-form">
+    <label for="file">Choose a file:</label>
+    <input type="file" name="file" accept=".csv, .faa, fasta">
+    <label for="prediction_type">Choose prediction type:</label>
+    <select name="prediction_type">
+      <option value="protein">Protein</option>
+      <option value="enzyme">Enzyme</option>
+      <option value="peptide">Peptide</option>
+    </select>
+    <input type="submit" value="Upload File">
+  </form>
+
+  <hr>
+
+  <h2>Enter a Sequence</h2>
+  <form action="{{ url_for('ml_preprocessing') }}" method="post" class="query-form">
+    <label for="sequence">Enter sequence:</label>
+    <input type="text" name="Enter_sequence" required="required" class="query-input">
+    <button type="submit" class="predict-button">Predict</button>
+  </form>
+
+{% endblock %}

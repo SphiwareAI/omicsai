@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Vectorizer Pickle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        input[type=file] {
+            width: 300px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button[type=submit] {
+            width: 150px;
+            padding: 12px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button[type=submit]:hover {
+            background-color: #0056b3;
+        }
+
+        .message-container {
+            display: none; /* Initially hidden */
+            justify-content: center;
+            align-items: center;
+            background-color: #00FF7F;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Welcome to chaperone.ai!</h1>
+        <form method="POST" enctype="multipart/form-data" action="/upload_vectorizer" onsubmit="showMessage()">
+            <label for="vectorizer">Choose a vectorizer pickle to upload:</label>
+            <input type="file" name="vectorizer" id="vectorizer" accept=".pkl">
+            <input type="hidden" name="file_path" value="{{ file_path }}">
+            <button type="submit">Upload</button>
+        </form>
+        <div class="message-container" id="message">File uploaded successfully!!</div>
+        <form action="/ml_classification" method="POST" target="_blank">
+            <input type="hidden" name="file_path" value="{{ file_path }}">
+            <button type="submit">Get Report</button>
+        </form>
+    </div>
+
+    <script>
+        function showMessage() {
+            // Show the message container when the form is submitted
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
